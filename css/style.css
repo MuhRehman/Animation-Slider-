@@ -88,9 +88,15 @@ color: #feb154;
     left: 245px;
     bottom: 55px;
 }
-.img-3 {
-    width: 70px;
+.img-4 {
+    width: 60px;
     position: absolute;
-    left: 245px;
-    bottom: 55px;
+    right: 155px;
+    bottom: 95px;
+}
+.img-5 {
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
 }
