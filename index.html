@@ -6,7 +6,10 @@
 
     <title>Animated Slider</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="animate/">
     <link rel="stylesheet" href="bootstrape/bootstrap.min.css">
+
     <script src="bootstrape/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
 </head>
@@ -16,22 +19,22 @@
           <div class="carousel-item active slide-one">
               <div class="container"><div class="row">
                   <div class="col-md-6">
-                      <h1>Build Mobile App</h1>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil
+                      <h1 class="animated fadeInLeft delay-1s">Build Mobile App</h1>
+                      <p class="animated lightSpeedIn delay-2s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil
                            repellat recusandae officia distinctio nesciunt maiores cupiditate
                             neque! Ex mollitia tenetur harum ab expedita voluptatibus dolor unde
                              velit delectus praesentium.
                       </p>
-                      <button type="button" >Read More</button>
+                      <button type="button" class="animated jackInTheBox delay-5s" >Read More</button>
                   </div>
                   <div class="col-md-6">
                       <div class="img-box">
-                          <img class="pic-1" src="images/pic-1.png" alt="">
-                          <img class="pic-2" src="images/pic-2.png" alt="">
-                          <img class="pic-3" src="images/pic-3.png" alt="">
-                          <img class="pic-4" src="images/pic-4.png" alt="">
-                          <img class="pic-5" src="images/pic-5.png" alt="">
-                          <img class="pic-6" src="images/pic-6.png" alt="">
+                          <img class="pic-1 animated zoomIn delay-1s" src="images/pic-1.png" alt="">
+                          <img class="pic-2 animated fadeInLeft delay-4s" src="images/pic-2.png" alt="">
+                          <img class="pic-3 animated fadeInUp delay-3s" src="images/pic-3.png" alt="">
+                          <img class="pic-4 animated fadeInDown delay-3s" src="images/pic-4.png" alt="">
+                          <img class="pic-5 animated fadeInRight delay-4s" src="images/pic-5.png" alt="">
+                          <img class="pic-6 animated jackInTheBox delay-5s" src="images/pic-6.png" alt="">
                       </div>
                   </div>
               </div></div>
@@ -39,21 +42,21 @@
           <div class="carousel-item slide-two">
              <div class="container"><div class="row">
                   <div class="col-md-6">
-                      <h1>Learning Website Development</h1>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil
+                      <h1 class="animated fadeInLeft delay-1s">Learning Website Development</h1>
+                      <p class="animated lightSpeedIn delay-2s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil
                            repellat recusandae officia distinctio nesciunt maiores cupiditate
                             neque! Ex mollitia tenetur harum ab expedita voluptatibus dolor unde
                              velit delectus praesentium.
                       </p>
-                      <button type="button" >Read More</button>
+                      <button type="button"  class="animated jackInTheBox delay-5s" >Read More</button>
                   </div>
                   <div class="col-md-6">
                       <div class="img-box">
-                          <img class="img-1" src="images/img-1.png" alt="">
-                          <img class="img-2" src="images/img-2.png" alt="">
-                          <img class="img-3" src="images/img-3.png" alt="">
-                          <img class="img-4" src="images/img-4.png" alt="">
-                          <img class="img-5" src="images/img-5.png" alt="">
+                          <img class="img-1 animated zoomIn delay-1s" src="images/img-1.png" alt="">
+                          <img class="img-2 animated fadeInLeft delay-4s" src="images/img-2.png" alt="">
+                          <img class="img-3 animated zoomIn delay-3s" src="images/img-3.png" alt="">
+                          <img class="img-4 animated fadeInDown delay-3s" src="images/img-4.png" alt="">
+                          <img class="img-5 animated fadeInRight delay-4s" src="images/img-5.png" alt="">
                       </div>
                   </div>
               </div>
@@ -74,6 +77,10 @@
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <script>
+        $('.carousel').carousel({
+       interval:7000
+        });
+    </script>
 </body>
 </html>
